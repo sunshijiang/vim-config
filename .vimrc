@@ -15,4 +15,11 @@
 " :imap <c-d> dd //在`insert mode`下使用`Ctrl+d`，只会输入两个dd
 " :imap <c-d> <esc>dd //在`insert mode`下使用`Ctrl+d`，相当于在normal模式下输入dd
 " :imap <c-d> <esc>ddi  //在`insert mode`下使用`Ctrl+d`，相当于在normal模式下输入ddi
-~~" :imap <c-u> <esc>U~~
+
+" :nmap - dd
+" :nmap \ -
+" :nunmap -
+" :numap \
+
+" :nmap dd O<esc?jddk  // 递归，无数个空行
+
